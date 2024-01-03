@@ -2,20 +2,385 @@
 @font-face {
     font-family: Koulen-Regular;
     src: url(../fonts/Koulen/Koulen/Koulen-Regular.ttf);
-};
+}
 
 @font-face {
     font-family: Krub-Regular;
     src: url(../fonts/Koulen/Krub/Krub-Regular.ttf);
-};
+}
 
 @font-face {
     font-family: Krub-Bold;
     src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
-};
+}
 
 /* End of Fonts */
+body{
+    background: radial-gradient(circle at center, #2B2C28, #131515);
+}
 
 .TylerHeroGallery{
-    background-image: url();
+    background-image: url(../assets/galleryHeader.png);
+    background-size: cover;
+    background-position: center;
+    height: 759px;
+    width: auto;
+}
+
+.TylerHeroTitle{
+    font-family: Koulen-Regular;
+    font-size: 150px;
+    color: white;
+}
+
+.TylerGalleryTitle{
+    font-family: Koulen-Regular;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 76px;
+    color: white;
+}
+
+.TylerRow1Pic{
+    background-image: url(../assets/Amazing.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 430px;
+    max-width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRow2Pic{
+    background-image: url(../assets/Spiderman.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 430px;
+    max-width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRow3Pic{
+    background-image: url(../assets/Taiyo.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 430px;
+    max-width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRow4Pic{
+    background-image: url(../assets/midnight.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 430px;
+    max-width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerGalleryBox{
+    background-color: #FFFFFF;
+    opacity: .8;
+    height: 107px;
+    width: 269px;
+    display: flex;
+    justify-content: end;   
+    border-radius: 15px 0px 10px 0px;
+}
+
+.TylerGalleryText{
+    font-family: Koulen-Regular;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+
+.TylerSizzling1Pic{
+    background-image: url(../assets/Bulgolgi.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerSizzling2Pic{
+    background-image: url(../assets/Beef\ Teppanyaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerSizzling3Pic{
+    background-image: url(../assets/Chicken\ Teppanyaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerSashimi1Pic{
+    background-image: url(../assets/Sashimi\ Combination.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerSashimi2Pic{
+    background-image: url(../assets/Hamachi\ Truffle.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerSashimi3Pic{
+    background-image: url(../assets/Sake\ Negiae.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRamen1Pic{
+    background-image: url(../assets/Shoyu\ Ramen.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRamen2Pic{
+    background-image: url(../assets/Tonkotsu\ Ramen.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerRamen3Pic{
+    background-image: url(../assets/Spicy\ Ramen.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerTeishoku1Pic{
+    background-image: url(../assets/Beef\ Teriyaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerTeishoku2Pic{
+    background-image: url(../assets/Chicken\ Teriyaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerTeishoku3Pic{
+    background-image: url(../assets/Salmon\ Teriyaki:\ Shioyaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerUdon1Pic{
+    background-image: url(../assets/Tempura\ Udon.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerUdon2Pic{
+    background-image: url(../assets/Nabeyaki\ Udon.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerUdon3Pic{
+    background-image: url(../assets/Yasai\ Yaki.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerBento1Pic{
+    background-image: url(../assets/Teriyaki\ Chicken.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerBento2Pic{
+    background-image: url(../assets/Salmon\,\ California\ Roll\,\ Tempura.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TylerBento3Pic{
+    background-image: url(../assets/Gyoza\,\ Teriyaki\ Chicken\,\ Tempura.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media  screen and (max-width: 859px) {
+    .TylerRow1Pic{
+        
+    }
+    
+    .TylerRow2Pic{
+        
+    }
+    
+    .TylerRow3Pic{
+       
+    }
+    .TylerRow4Pic{
+        
+    }
 }
