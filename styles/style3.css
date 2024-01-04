@@ -52,6 +52,7 @@
     font-size: 14px;
     font-family: Krub-Regular;
     height: 31px;
+    margin-top: 3%;
   }
 
 .brandonNavBox {
@@ -87,7 +88,7 @@
     background-color: #ea5329;
     height: auto;
     border-radius: 15px;
-    margin-right: 8%;
+    margin-right: 9%;
   }
 
 .brandonAboutUsBG {
@@ -106,7 +107,7 @@
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(234, 83, 41)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
   
   .custom-toggler.navbar-toggler {
@@ -241,6 +242,26 @@
         font-size: 25px;
         text-decoration: none;
       }
+      .brandonAboutUsTitle {
+        font-family: Koulen-Regular;
+        color: #bda344;
+        font-size: 45px;
+      }
+      
+      .brandonAboutUs {
+        font-family: Krub-Regular;
+        color: white;
+        font-size: 20px;
+      }
+      .brandonLogoBox2 {
+        background-color: rgba(255, 255, 255, 0.4);
+        min-height: 254px;
+        max-height: 354px;
+        height: 270px;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 300px;
+      }
 }
 
 @media screen and (max-width:530px ){
@@ -259,20 +280,49 @@
         border-radius: 15px;
         margin-top: 300px;
       }
+      .brandonLogoText{
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        font-family: Krub-Regular;
+        height: 31px;
+        margin-top: 5%;
+      }
 }
 
-@media screen and (max-width:400px ){
+@media screen and (max-width:440px ){
   .brandonLogoText{
     background-color: black;
     color: white;
     font-size: 11px;
     font-family: Krub-Regular;
     height: 31px;
+    margin-top: 6%;
   }
   .brandonNavText2 a {
     color: white;
     font-family: Koulen-Regular;
     font-size: 20px;
     text-decoration: none;
+  }
+  .brandonLogoBox2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 234px;
+    max-height: 354px;
+    height: 234px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 300px;
+  }
+  .brandonAboutUsTitle {
+    font-family: Koulen-Regular;
+    color: #bda344;
+    font-size: 35px;
+  }
+  
+  .brandonAboutUs {
+    font-family: Krub-Regular;
+    color: white;
+    font-size: 15px;
   }
 }
