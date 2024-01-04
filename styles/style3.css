@@ -38,7 +38,9 @@
 
 .brandonLogoBox2 {
     background-color: rgba(255, 255, 255, 0.4);
-    height: 25%;
+    min-height: 254px;
+    max-height: 354px;
+    height: 284px;
     width: 100%;
     border-radius: 15px;
     margin-top: 300px;
@@ -85,7 +87,7 @@
     background-color: #ea5329;
     height: auto;
     border-radius: 15px;
-    margin-right: 20%;
+    margin-right: 8%;
   }
 
 .brandonAboutUsBG {
@@ -236,16 +238,41 @@
     .brandonNavText2 a {
         color: white;
         font-family: Koulen-Regular;
-        font-size: 20px;
+        font-size: 25px;
         text-decoration: none;
       }
 }
 
-@media screen and (max-width:500px ){
+@media screen and (max-width:530px ){
     .brandonNavText2 a {
         color: white;
         font-family: Koulen-Regular;
-        font-size: 15px;
+        font-size: 25px;
         text-decoration: none;
       }
+      .brandonLogoBox2 {
+        background-color: rgba(255, 255, 255, 0.4);
+        min-height: 254px;
+        max-height: 354px;
+        height: 264px;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 300px;
+      }
+}
+
+@media screen and (max-width:400px ){
+  .brandonLogoText{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    font-family: Krub-Regular;
+    height: 31px;
+  }
+  .brandonNavText2 a {
+    color: white;
+    font-family: Koulen-Regular;
+    font-size: 20px;
+    text-decoration: none;
+  }
 }
