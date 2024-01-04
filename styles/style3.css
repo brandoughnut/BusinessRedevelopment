@@ -141,13 +141,20 @@
 
 .dropdown:hover>.dropdown-menu {
     display: block;
+    
 }
   
-.dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
+.dropdown>:hover {
+      background-color: #ea5329;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      color: white;
 }
 
+.dropdown-menu{
+  border-top-left-radius: 0px;
+  border: none;
+}
 
 
 .brandonStickyNavOrder {
