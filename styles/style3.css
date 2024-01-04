@@ -80,6 +80,7 @@
 .brandonOrderOnline {
   background-color: #ea5329;
   height: 98px;
+  width: fit-content;
   border-radius: 15px;
   padding-top: 18px;
 }
