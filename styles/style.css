@@ -23,14 +23,15 @@ body{
     background-image: url(../assets/galleryHeader.png);
     background-size: cover;
     background-position: center;
-    height: 759px;
-    width: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .TylerHeroTitle{
     font-family: Koulen-Regular;
-    font-size: 150px;
+    font-size: 7.81vw;
     color: white;
+    text-align: center;
 }
 
 .TylerGalleryTitle{
@@ -45,8 +46,8 @@ body{
     background-image: url(../assets/Amazing.png);
     background-size: cover;
     background-position: center;
-    max-height: 430px;
-    max-width: 430px;
+    height: 430px;
+    width: 430px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
@@ -59,8 +60,8 @@ body{
     background-image: url(../assets/Spiderman.png);
     background-size: cover;
     background-position: center;
-    max-height: 430px;
-    max-width: 430px;
+    height: 430px;
+    width: 430px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
@@ -73,8 +74,8 @@ body{
     background-image: url(../assets/Taiyo.png);
     background-size: cover;
     background-position: center;
-    max-height: 430px;
-    max-width: 430px;
+    height: 430px;
+    width: 430px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
@@ -87,8 +88,8 @@ body{
     background-image: url(../assets/midnight.png);
     background-size: cover;
     background-position: center;
-    max-height: 430px;
-    max-width: 430px;
+    height: 430px;
+    width: 430px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
@@ -100,7 +101,7 @@ body{
 .TylerGalleryBox{
     background-color: #FFFFFF;
     opacity: .8;
-    height: 107px;
+    max-height: 107px;
     width: 269px;
     display: flex;
     justify-content: end;   
@@ -157,6 +158,19 @@ body{
     border-style: solid;
     border-width: 5px;
 }
+.TylerSizzling4Pic{
+    background-image: url(../assets/Spicy\ Chicken.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
 
 .TylerSashimi1Pic{
     background-image: url(../assets/Sashimi\ Combination.png);
@@ -199,6 +213,19 @@ body{
     border-style: solid;
     border-width: 5px;
 }
+.TylerSashimi4Pic{
+    background-image: url(../assets/Seared\ Ahi\ Tuna\ .png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px; 
+}
 
 .TylerRamen1Pic{
     background-image: url(../assets/Shoyu\ Ramen.png);
@@ -230,6 +257,19 @@ body{
 
 .TylerRamen3Pic{
     background-image: url(../assets/Spicy\ Ramen.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+.TylerRamen4Pic{
+    background-image: url(../assets/Tonkotsu\ Ramen.png);
     background-size: cover;
     background-position: center;
     height: 430px;
@@ -277,7 +317,20 @@ body{
     height: 430px;
     width: 430px;
     margin-left: 50px;
-    margin-right: 100px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+.TylerTeishoku4Pic{
+    background-image: url(../assets/Pork\ Katsu.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 15px;
     border-color: white;
     border-style: solid;
@@ -325,9 +378,22 @@ body{
     border-style: solid;
     border-width: 5px;
 }
+.TylerUdon4Pic{
+    background-image: url(../assets/Tempura\ &\ Soba.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
 
 .TylerBento1Pic{
-    background-image: url(../assets/Teriyaki\ Chicken.png);
+    background-image: url(../assets/Rice\,\ Katsu\,\ Gyoza.png);
     background-size: cover;
     background-position: center;
     height: 430px;
@@ -341,7 +407,7 @@ body{
 }
 
 .TylerBento2Pic{
-    background-image: url(../assets/Salmon\,\ California\ Roll\,\ Tempura.png);
+    background-image: url(../assets/Teriyaki\ Chicken.png);
     background-size: cover;
     background-position: center;
     height: 430px;
@@ -355,7 +421,7 @@ body{
 }
 
 .TylerBento3Pic{
-    background-image: url(../assets/Gyoza\,\ Teriyaki\ Chicken\,\ Tempura.png);
+    background-image: url(../assets/Salmon\,\ California\ Roll\,\ Tempura.png);
     background-size: cover;
     background-position: center;
     height: 430px;
@@ -367,20 +433,991 @@ body{
     border-style: solid;
     border-width: 5px;
 }
+.TylerBento4Pic{
+    background-image: url(../assets/Gyoza\,\ Teriyaki\ Chicken\,\ Tempura.png);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px; 
+}
+.TylerFooterBox{
+    background-color: #EED7C5;
+}
 
-@media  screen and (max-width: 859px) {
+.TylerFooterText{
+    font-family: Koulen-Regular;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 76px;
+}
+.TylerFooterTextHead{
+    font-family: Koulen-Regular;
+    font-size: 55px;
+    color: #BDA344;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 76px;
+}
+.TylerFooterLogo{
+    width: 100%; 
+    height: 100%; 
+    margin-left: 32px; 
+    margin-top: 115px;
+}
+.TylerFooterYelpLogo{
+    max-width: 47px; 
+    max-height: 47px; 
+   
+    margin-top: 58px;
+}
+.TylerFooterTripLogo{
+    max-width: 58px; 
+    max-height: 63px; 
+    margin-left: 46px; 
+    margin-top: 58px;
+}
+.TylerFooterInstaLogo{
+    max-width: 58px; 
+    max-height: 53px; 
+    margin-left: 46px; 
+    margin-top: 58px;
+}
+.TylerFooterFaceLogo{
+    max-width: 47px; 
+    max-height: 47px; 
+    margin-left: 46px; 
+    margin-top: 58px;
+}
+.TylerlineBreak{
+    border-bottom: solid black 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.TylerFooterBlueWater{
+    display: flex;
+    justify-content: center;
+    font-family: Koulen-Regular;
+    color: #BDA344;
+    font-size: 40px;
+    margin-top: 23px;
+    padding-bottom: 29px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1200px){
+    .TylerFooterText{
+        font-family: Koulen-Regular;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+    .TylerFooterTextHead{
+        font-family: Koulen-Regular;
+        font-size: 40px;
+        color: #BDA344;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .TylerFooterLogo{
+        width: 343px; 
+        height: 58px; 
+        margin-left: 0px; 
+        margin-top: 45px;
+    }
+    .TylerFooterYelpLogo{
+        width: 20px; 
+        height: 20px; 
+        margin-left: 0px; 
+        margin-top: 0px;
+    }
+    .TylerFooterTripLogo{
+        width: 24px; 
+        height: 27px; 
+        margin-left: 22px; 
+        margin-top: 0px;
+    }
+    .TylerFooterInstaLogo{
+        width: 25px; 
+        height: 22px; 
+        margin-left: 22px; 
+        margin-top: 0px;
+    }
+    .TylerFooterFaceLogo{
+        width: 20px; 
+        height: 20px; 
+        margin-left: 22px; 
+        margin-top: 0px;
+    }
+    .TylerMobileFooter{
+        display: flex;
+        justify-content: center
+    }
+    .TylerFooterLeftAlign{
+        text-align: start;
+    }
+    .TylerFootMargin{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media screen and (max-width: 923px){
     .TylerRow1Pic{
-        
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
     }
     
     .TylerRow2Pic{
-        
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
     }
     
     .TylerRow3Pic{
-       
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
     }
     .TylerRow4Pic{
-        
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerSizzling1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerSizzling4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+
+    .TylerSashimi1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerSashimi4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerRamen4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerTeishoku4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerUdon4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerBento1Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerBento2Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    
+    .TylerBento3Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
+    }
+    .TylerBento4Pic{
+        width: 340px;
+        height: 340px;
+        border-width: 2px;
     }
 }
+@media  screen and (max-width: 749px) {
+    .TylerRow1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerRow2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerRow3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerRow4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerSizzling1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerSizzling4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerSashimi1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerSashimi4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerRamen4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerTeishoku4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerUdon4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerBento1Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerBento2Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    
+    .TylerBento3Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+    .TylerBento4Pic{
+        width: 250px;
+        height: 250px;
+        border-width: 2px;
+    }
+
+}
+@media  screen and (max-width: 713px) {
+    .TylerRow1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerRow2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerRow3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerRow4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerSizzling1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerSizzling4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerSashimi1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerSashimi4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerRamen4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerTeishoku4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerUdon4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerBento1Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerBento2Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    
+    .TylerBento3Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    .TylerBento4Pic{
+        width: 210px;
+        height: 210px;
+        border-width: 2px;
+    }
+    /* .TylerHeroGallery{
+        background-image: url(../assets/galleryHeader.png);
+        background-size: cover;
+        background-position: center;
+        height: 137px;
+    }
+    .TylerHeroTitle{
+        font-family: Koulen-Regular;
+        font-size: 40px;
+        color: white;
+    } */
+    .TylerGalleryText{
+        font-family: Koulen-Regular;
+        font-size: 16px;
+        color: black;
+        margin-top: 20px;
+        opacity: 1;
+    }
+    .TylerGalleryBox{
+        background-color: #FFFFFF;
+        opacity: .8;
+        max-height: 107px;
+        width: 125px;
+        display: flex;
+        justify-content: end;   
+        border-radius: 15px 0px 10px 0px;
+    }
+    .TylerFooterBlueWater{
+        display: flex;
+        justify-content: center;
+        font-family: Koulen-Regular;
+        color: #BDA344;
+        font-size: 20px;
+        margin-top: 23px;
+    }
+}
+
+@media  screen and (max-width: 484px) {
+    .TylerGalleryTitle{
+        font-family: Koulen-Regular;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+    }
+    .TylerRow1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerRow2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerRow3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerRow4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerSizzling1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerSizzling4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerSashimi1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerSashimi4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerRamen4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerTeishoku4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerUdon4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerBento1Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerBento2Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    
+    .TylerBento3Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .TylerBento4Pic{
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+}
+
+@media  screen and (max-width: 484px) {
+    .TylerGalleryTitle{
+        font-family: Koulen-Regular;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+    }
+    .TylerRow1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerRow2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerRow3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerRow4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerSizzling1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerSizzling3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerSizzling4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerSashimi1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerSashimi3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerSashimi4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerRamen3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerRamen4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerTeishoku3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerTeishoku4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerUdon3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerUdon4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerBento1Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerBento2Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    
+    .TylerBento3Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+    .TylerBento4Pic{
+        width: 150px;
+        height: 150px;
+        border-width: 2px;
+    }
+}
+
