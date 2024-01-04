@@ -14,15 +14,122 @@
     <link rel="stylesheet" href="./styles/style3.css" />
   </head>
   <body class="brandonBody">
+
+    <!-- mobile navbar start -->
+    <nav class="navbar navbar-expand-lg g-0 d-lg-none d-xl-none d-xxl-none fixed-top" style="padding: 0; margin-top: 2%;">
+        <div class="container-fluid g-0 d-flex justify-content-end">
+          <!-- <a class="navbar-brand" style="margin-left: 1.25%;" href="#"
+            ><img src="./assets/logo.png" alt=""
+          /></a> -->
+          <button
+            class="navbar-toggler custom-toggler brandonNavToggle"
+            style="margin-right: 5%;"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+            style="background-color: rgb(238, 215, 197)"
+          >
+            <ul class="navbar-nav text-center">
+                <li><hr /></li>
+              <li class="nav-item">
+                <a class="brandonStickyNav" href="#">Home</a>
+              </li>
+              <li><hr class="" /></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-toggle brandonStickyNav ms-4"
+                  href="./pages/Menu.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Menu
+                </a>
+                <ul
+                  class="dropdown-menu brandonNavDrop"
+                  style="background-color: rgb(238, 215, 197)"
+                >
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Appetizers.html"
+                      >Appetizers & Salads</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/SizzlingPlate.Html"
+                      >Sizzling Plate / Sukiyaki</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Entree.html"
+                      >Entrees & Bentos</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Ramen.html"
+                      >Ramen / Udon & Soba</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Donburi.html"
+                      >Donburi & Sashimi</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Rolls.html"
+                      >Sushi Rolls</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-center" href="./pages/Desserts.html"
+                      >Desserts & Drinks</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><hr class="" /></li>
+              <li class="nav-item mb-3">
+                <a class="brandonStickyNav"  href="./pages/Gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <a
+                class="brandonStickyNavOrder nav-item brandonNavOrder"
+                style="padding-top: 15px"
+                href="https://app.masa.plus/store/4367"
+                >Order Online</a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- mobile navbar end -->
+
+    
     <!-- Hero Image start -->
     <div
       class="container-fluid d-flex justify-content-center brandonDesktopHero"
     >
-      <div class="d-flex flex-column align-items-center">
+      <!-- hide in phone mode -->
+      <div class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex flex-column align-items-center">
         <div class="row align-items-center brandonLogoBox">
-          <img src="./assets/desktoplogo.png" alt="" />
+          <img class="img-fluid" src="./assets/desktoplogo.png" alt="" />
         </div>
-        <div class="row gx-0 align-items-center brandonNavBox">
+        <div class="row gx-0 align-items-center brandonNavBox" style="margin-left: 4%;">
           <div class="col-3 brandonNavText" style="padding-left: 27px">
             <a href="./pages/Menu.html">MENU</a>
           </div>
@@ -30,34 +137,42 @@
             <a href="./pages/Gallery.html">GALLERY</a>
           </div>
           <div class="col text-center brandonOrderOnline brandonNavText">
-            <a href="">ORDER ONLINE</a>
+            <a href="https://app.masa.plus/store/4367">ORDER ONLINE</a>
           </div>
         </div>
       </div>
+      <!-- hide in phone mode -->
+
+      <!-- phone mode -->
+
+      <!-- phone mode -->
+
+
     </div>
     <!-- Hero Image End -->
 
     <!-- Sticky Nav bar Start -->
-    <nav class="navbar navbar-expand-lg brandonNav g-0">
+    <nav class="navbar navbar-expand-lg brandonNav g-0 d-none d-lg-block d-xl-block d-xxl-block" style="padding: 0; height: 92px;">
       <div class="container-fluid g-0">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" style="margin-left: 1.25%;" href="#"
           ><img src="./assets/logo.png" alt=""
         /></a>
 
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand d-none d-xl-block d-xxl-block" href="#"
           ><img src="./assets/yelpLogo.png" alt=""
         /></a>
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand d-none d-xl-block d-xxl-block" href="#"
           ><img src="./assets/tripLogo.png" alt=""
         /></a>
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand d-none d-xl-block d-xxl-block" href="#"
           ><img src="./assets/34b272f1-4361-4006-ae0a-955f343b1c13.png" alt=""
         /></a>
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand d-none d-xl-block d-xxl-block" href="#"
           ><img src="./assets/facebookLogo.png" alt=""
         /></a>
         <button
           class="navbar-toggler"
+          style="margin-right: 5%;"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -72,14 +187,14 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav text-center">
-            <li class="nav-item" style="margin-top: 1%">
-              <a class="nav-link" href="#">Home</a>
+            <li class="nav-item me-5" style="padding-top: 27px">
+              <a class="brandonStickyNav" href="#">Home</a>
             </li>
 
-            <li class="nav-item dropdown" style="margin-top: 1%">
+            <li class="nav-item dropdown me-4" style="padding-top: 27px">
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
+                class="dropdown-toggle brandonStickyNav"
+                href="./pages/Menu.html"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -87,41 +202,63 @@
                 Menu
               </a>
               <ul
-                class="dropdown-menu"
+                class="dropdown-menu brandonNavDrop"
                 style="background-color: rgb(238, 215, 197)"
               >
                 <li>
-                  <a class="dropdown-item" href="#">Appetizers & Salads</a>
+                  <a class="dropdown-item" href="./pages/Appetizers.html"
+                    >Appetizers & Salads</a
+                  >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#"
+                  <a class="dropdown-item" href="./pages/SizzlingPlate.Html"
                     >Sizzling Plate / Sukiyaki</a
                   >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Entrees & Bentos</a></li>
-                <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Ramen / Udon & Soba</a>
+                  <a class="dropdown-item" href="./pages/Entree.html"
+                    >Entrees & Bentos</a
+                  >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Donburi & Sashimi</a></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Ramen.html"
+                    >Ramen / Udon & Soba</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Sushi Rolls</a></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Donburi.html"
+                    >Donburi & Sashimi</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Desserts & Drinks</a></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Rolls.html"
+                    >Sushi Rolls</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Desserts.html"
+                    >Desserts & Drinks</a
+                  >
+                </li>
               </ul>
             </li>
-            <li class="nav-item" style="margin-top: 1%">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <div class="brandonNavOrder">
-                <li class="nav-item" style="margin-top: 1%">
-                <a class="nav-link" href="#">Order Online</a>
-              </li>
-            </div>
-              
+            <li class="nav-item ms-2 me-4" style="padding-top: 27px;">
+              <a class="brandonStickyNav"  href="./pages/Gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <a
+              class="brandonStickyNavOrder nav-item brandonNavOrder"
+              style="padding-top: 15px"
+              href="https://app.masa.plus/store/4367"
+              >Order Online</a
+            >
           </ul>
         </div>
       </div>
@@ -131,17 +268,19 @@
     <!-- About Us Start -->
     <div class="container-fluid brandonAboutUsBG">
       <div class="row">
-        <div class="col-6">
-          <div class="row" style="margin-top: 30%">
+        <div class="col-6 d-none d-xxl-block">
+          <div class="row brandonAboutUsImg">
             <div class="col-3">
               <img
+              
                 src="./assets/Pattern.png"
-                style="object-fit: cover"
+                style="object-fit: cover;"
                 alt=""
               />
             </div>
-            <div class="col-auto">
+            <div class="col-9">
               <img
+                class="img-fluid"
                 style="padding-top: 1px"
                 src="./assets/homePagePic.png"
                 alt=""
@@ -151,8 +290,8 @@
         </div>
 
         <div
-          class="col-6"
-          style="padding-left: 5%; padding-right: 10%; margin-top: 6%"
+          class="col-auto col-xxl-6 brandonAboutUsText"
+          style="margin-top: 6%"
         >
           <p class="brandonAboutUsTitle">ABOUT US</p>
           <p class="brandonAboutUs">

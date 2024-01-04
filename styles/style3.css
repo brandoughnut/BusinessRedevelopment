@@ -1,87 +1,207 @@
 /* DONT COPY */
 
 @font-face {
-    font-family: Koulen-Regular;
-    src: url(../fonts/Koulen/Koulen/Koulen-Regular.ttf);
+  font-family: Koulen-Regular;
+  src: url(../fonts/Koulen/Koulen/Koulen-Regular.ttf);
 }
 
 @font-face {
-    font-family: Krub-Regular;
-    src: url(../fonts/Koulen/Krub/Krub-Regular.ttf);
+  font-family: Krub-Regular;
+  src: url(../fonts/Koulen/Krub/Krub-Regular.ttf);
 }
 
 @font-face {
-    font-family: Krub-Bold;
-    src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
+  font-family: Krub-Bold;
+  src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
 }
 
 /* End of DONT COPY */
 
 .brandonBody {
-    background-color: #2B2C28;
+  background-color: #2b2c28;
 }
 
-.brandonDesktopHero{
-    background-image: url(../assets/desktopheader.png);
-    height: 1022px;
-    object-fit: cover;
-    background-position: 50% 96%;
+.brandonDesktopHero {
+  background-image: url(../assets/desktopheader.png);
+  height: 1022px;
+  object-fit: cover;
+  background-position: 50% 96%;
+
 }
 
 .brandonLogoBox {
-    background-color: rgba(255, 255, 255, 0.4);
-    height: 173px;
-    border-radius: 15px;
-    margin-top: 300px;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 173px;
+  border-radius: 15px;
+  margin-top: 300px;
 }
 
 .brandonNavBox {
-    background-color: rgba(255, 255, 255, 0.4);
-    height: 98px;
-    width: 629px;
-    border-radius: 15px;
-    margin-top: 72px;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 98px;
+  width: 629px;
+  border-radius: 15px;
+  margin-top: 72px;
 }
 
-.brandonNavText  a {
-    color: white;
-    font-family: Koulen-Regular;
-    font-size: 40px;
-    text-decoration: none;
+.brandonNavText a {
+  color: white;
+  font-family: Koulen-Regular;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 .brandonOrderOnline {
-    background-color: #EA5329;
-    height: 98px;
-    border-radius: 15px;
-    padding-top: 18px;
+  background-color: #ea5329;
+  height: 98px;
+  border-radius: 15px;
+  padding-top: 18px;
 }
 
 .brandonAboutUsBG {
-    height: 911px;
+  height: 911px;
 }
 
 .brandonNav {
-    background-color: rgb(238, 215, 197, 0.8);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  background-color: rgb(238, 215, 197, 0.8);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
+.brandonNavToggle {
+    background-color: rgba(238, 215, 197, 0.8);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border: none;
+  } 
+
 .brandonAboutUsTitle {
-    font-family: Koulen-Regular;
-    color: #BDA344;
-    font-size: 55px;
+  font-family: Koulen-Regular;
+  color: #bda344;
+  font-size: 55px;
 }
 
 .brandonAboutUs {
-    font-family: Krub-Regular;
-    color: white;
-    font-size: 25px;
-}  
+  font-family: Krub-Regular;
+  color: white;
+  font-size: 25px;
+}
+
+.brandonAboutUsImg {
+    margin-top: 25%;
+}
 
 .brandonNavOrder {
-    width: 291px;
-    height: 83px;
-    background-color: #EA5329;
+  width: 291px;
+  height: 92px;
+  background-color: #ea5329;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+}
+
+
+
+.brandonStickyNavOrder {
+    color: white;
+    font-size: 40px;
+    font-family: Koulen-Regular;
+    text-decoration: none;
+}
+
+.brandonStickyNav {
+    color: black;
+    font-size: 25px;
+    font-family: Koulen-Regular;
+    text-decoration: none;
+}
+
+.brandonNavDrop {
+    font-size: 14px;
+    color: #131515;
+    font-family: Krub-Regular;
+}
+
+.brandonAboutUsText {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width:1770px ){
+    .brandonAboutUsImg{
+        margin-top: 28%;
+    }
+}
+
+@media screen and (max-width:1650px ){
+    .brandonAboutUsImg{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width:1520px ){
+    .brandonAboutUsImg{
+        margin-top: 33%;
+    }
+}
+
+@media screen and (max-width:1399px ){
+    .brandonAboutUsBG {
+        background: linear-gradient(rgba(43, 44, 40, 0.992), rgba(43, 44, 40, 0.992)), url(../assets/Pattern.png);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+      }
+    .brandonAboutUsText{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .brandonAboutUsTitle {
+        font-family: Koulen-Regular;
+        color: #bda344;
+        font-size: 55px;
+        text-align: center;
+      }
+}
+
+@media screen and (max-width:991px ){
+    .brandonNavOrder {
+        width: auto;
+        height: 65px;
+        background-color: #ea5329;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      .brandonStickyNavOrder {
+        color: white;
+        font-size: 25px;
+        font-family: Koulen-Regular;
+        text-decoration: none;
+    }
+    .brandonAboutUsTitle {
+        font-family: Koulen-Regular;
+        color: #bda344;
+        font-size: 55px;
+        text-align: center;
+      }
+}
+
+@media screen and (max-width:730px ){
+    
 }
