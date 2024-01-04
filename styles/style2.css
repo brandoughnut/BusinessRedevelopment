@@ -1,0 +1,195 @@
+/* Fonts */
+@font-face {
+    font-family: Koulen-Regular;
+    src: url(../fonts/Koulen/Koulen/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Krub-Regular;
+    src: url(../fonts/Koulen/Krub/Krub-Regular.ttf);
+}
+
+@font-face {
+    font-family: Krub-Bold;
+    src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
+}
+
+
+body {
+    background: radial-gradient(circle at center, #2B2C28, #131515);
+}
+
+.marcosPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.marcosPaddingTop {
+    margin-top: 8%;
+
+}
+
+.marcosHeaderText {
+    color: white;
+    font-size: 150px;
+    font-family: Koulen-Regular;
+    text-align: center;
+}
+
+.marcosMenuHeader {
+    background-image: url(../assets/menuHeader.png);
+    background-size: cover;
+    background-position: 0, 80%;
+    height: 759px;
+}
+
+.marcosRollsBtn {
+    object-fit: cover;
+    border-radius: 40px;
+    width: 100%;
+    height: 387px;
+}
+
+.marcosRamenBtn {
+    height: 387px;
+    width: 387px;
+    border-radius: 40px;
+
+}
+
+.marcosContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.marcosTextCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    background-color: hsla(13, 82%, 54%, 0.803);
+    padding: 10px 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+    font-family: Koulen-Regular;
+}
+
+.marcosTextCentered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: hsla(13, 82%, 54%, 0.803);
+    padding: 10px 90px;
+    border-radius: 15px;
+    white-space: nowrap;
+    font-family: Koulen-Regular;
+}
+
+@media screen and (max-width: 1590px) {
+    .marcosRollsBtn {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 330px;
+    }
+
+    .marcosRamenBtn {
+        height: 330px;
+        width: 330px;
+        border-radius: 40px;
+    }
+
+    .marcosTextCentered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        background-color: hsla(13, 82%, 54%, 0.803);
+        padding: 10px 10px;
+        border-radius: 15px;
+        white-space: nowrap;
+        font-family: Koulen-Regular;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .marcosRollsBtn {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 330px;
+    }
+
+    .marcosRamenBtn {
+        height: 290px;
+        width: 290px;
+        border-radius: 40px;
+    }
+
+    .marcosTextCentered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        background-color: hsla(13, 82%, 54%, 0.803);
+        padding: 10px 10px;
+        border-radius: 15px;
+        white-space: nowrap;
+        font-family: Koulen-Regular;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .marcosRollsBtn {
+        object-fit: cover;
+        border-radius: 20px;
+        max-width: 100%;
+        width: 950px;
+
+        max-width: 100%;
+
+        height: auto;
+    }
+
+    .marcosRamenBtn {
+        width: 950px;
+
+        max-width: 100%;
+
+        height: auto;
+
+        border-radius: 20px;
+    }
+
+    .marcosTextCentered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4vw;
+        background-color: hsla(13, 82%, 54%, 0.803);
+        padding: 1% 3%;
+        border-radius: 10px;
+
+        font-family: Koulen-Regular;
+    }
+
+    .marcosTextCentered2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4vw;
+        background-color: hsla(13, 82%, 54%, 0.803);
+        padding: 1%3%;
+        border-radius: 10px;
+
+        font-family: Koulen-Regular;
+    }
+}
