@@ -286,6 +286,10 @@
   color: transparent;
 }
 
+.brandonMenuMargin {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width:1770px ){
     .brandonAboutUsImg{
         margin-top: 28%;
@@ -301,6 +305,11 @@
 @media screen and (max-width:1520px ){
     .brandonAboutUsImg{
         margin-top: 33%;
+    }
+    .marcosMenuText {
+      font-size: 20px;
+      color: white;
+      font-family: Krub-Regular;
     }
 }
 
@@ -334,6 +343,19 @@
         text-decoration: underline;
         text-underline-position: under;
       }
+      .marcosMenuText {
+        font-size: 18px;
+        color: white;
+        font-family: Krub-Regular;
+      }
+}
+
+@media screen and (max-width:1171px ){
+  .marcosMenuText {
+    font-size: 15px;
+    color: white;
+    font-family: Krub-Regular;
+  }
 }
 
 @media screen and (max-width:991px ){
@@ -380,6 +402,14 @@
       }
       .brandonMenuCol {
         padding: 0;
+      }
+      .marcosMenuText {
+        font-size: 25px;
+        color: white;
+        font-family: Krub-Regular;
+      }
+      .brandonMenuMargin {
+        margin-bottom: 24px;
       }
 }
 
