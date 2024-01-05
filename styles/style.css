@@ -18,6 +18,13 @@
 body{
     background: radial-gradient(circle at center, #2B2C28, #131515);
 }
+.TylerHeroMenu{
+    background-image: url(../assets/menuHeader.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
 .TylerHeroGallery{
     background-image: url(../assets/galleryHeader.png);
@@ -510,6 +517,55 @@ body{
     padding-bottom: 29px;
     margin-bottom: 0px;
 }
+.marcosMenuText {
+    font-size: 25px;
+    color: white;
+    font-family: Krub-Regular;
+}
+
+.marcosMenuTextHeader {
+    font-family: Koulen-Regular;
+    font-size: 30px;
+    color: white;
+
+}
+
+.TylerRamenPic1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 24px;
+}
+
+.TylerRamenPic2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 24px;
+}
+
+.TylerRamenPic3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TylerRamenPic4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TylerMenuBoarders{
+    border: 5px solid white; 
+    padding: 20px;
+}
+
+.TylerQuoteText{
+    font-family: Krub-Regular;
+    font-size: 13px;
+    color: #FFFFFF;
+}
 @media screen and (max-width: 1200px){
     .TylerFooterText{
         font-family: Koulen-Regular;
@@ -886,6 +942,29 @@ body{
         width: 250px;
         height: 250px;
         border-width: 2px;
+    }
+    .marcosMenuText {
+        font-size: 25px;
+        color: white;
+        font-family: Krub-Regular;
+    }
+    
+    .marcosMenuTextHeader {
+        font-family: Koulen-Regular;
+        font-size: 30px;
+        color: white;
+    
+    }
+    
+    .TylerMenuBoarders{
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        border-left: none;
+        border-right: none;
+        padding: 20px;
+    }
+    .TylerMenuPadding{
+        padding: 0px;
     }
 
 }
@@ -1419,64 +1498,8 @@ body{
         height: 150px;
         border-width: 2px;
     }
-}
-
-
-/* app start */
-
-.marcosAppTopSpace {
-    margin-top: 10px;
-}
-
-
-.marcosMenuBox {
-    border: white solid 5px;
-    padding: 10px;
 
 }
 
-.marcosMenuText {
-    font-size: 25px;
-    color: white;
-    font-family: Krub-Regular;
-}
-
-.marcosMenuDesc {
-    font-size: 16px;
-    color: white;
-    font-family: Krub-Regular;
-}
-
-.marcosMenuTextHeader {
-    font-family: Koulen-Regular;
-    font-size: 30px;
-    color: white;
-
-}
-
-.marcosAppImg1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 
-.marcosAppImg2 {
-    width: 100%;
-    height: 100%;
-}
-
-.marcosAppImg3 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.marcosAppImg4 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-/* app end */
