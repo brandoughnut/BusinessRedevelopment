@@ -1421,3 +1421,62 @@ body{
     }
 }
 
+
+/* app start */
+
+.marcosAppTopSpace {
+    margin-top: 10px;
+}
+
+
+.marcosMenuBox {
+    border: white solid 5px;
+    padding: 10px;
+
+}
+
+.marcosMenuText {
+    font-size: 25px;
+    color: white;
+    font-family: Krub-Regular;
+}
+
+.marcosMenuDesc {
+    font-size: 16px;
+    color: white;
+    font-family: Krub-Regular;
+}
+
+.marcosMenuTextHeader {
+    font-family: Koulen-Regular;
+    font-size: 30px;
+    color: white;
+
+}
+
+.marcosAppImg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.marcosAppImg2 {
+    width: 100%;
+    height: 100%;
+}
+
+.marcosAppImg3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marcosAppImg4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* app end */
