@@ -503,4 +503,9 @@
     color: white;
     font-size: 15px;
   }
+  .marcosMenuText {
+    font-size: 20px;
+    color: white;
+    font-family: Krub-Regular;
+  }
 }
