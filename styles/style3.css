@@ -15,12 +15,6 @@
   src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
 }
 
-.marcosMenuText {
-  font-size: 25px;
-  color: white;
-  font-family: Krub-Regular;
-}
-
 .marcosMenuTextHeader {
   font-family: Koulen-Regular;
   font-size: 30px;
@@ -29,6 +23,12 @@
 }
 
 /* End of DONT COPY */
+
+.brandonMenuText {
+  font-size: 25px;
+  color: white;
+  font-family: Krub-Regular;
+}
 
 .brandonBody {
   background-color: #2b2c28;
@@ -306,7 +306,7 @@
     .brandonAboutUsImg{
         margin-top: 33%;
     }
-    .marcosMenuText {
+    .brandonMenuText {
       font-size: 20px;
       color: white;
       font-family: Krub-Regular;
@@ -343,7 +343,7 @@
         text-decoration: underline;
         text-underline-position: under;
       }
-      .marcosMenuText {
+      .brandonMenuText {
         font-size: 18px;
         color: white;
         font-family: Krub-Regular;
@@ -351,7 +351,7 @@
 }
 
 @media screen and (max-width:1171px ){
-  .marcosMenuText {
+  .brandonMenuText {
     font-size: 15px;
     color: white;
     font-family: Krub-Regular;
@@ -403,7 +403,7 @@
       .brandonMenuCol {
         padding: 0;
       }
-      .marcosMenuText {
+      .brandonMenuText {
         font-size: 25px;
         color: white;
         font-family: Krub-Regular;
@@ -503,7 +503,7 @@
     color: white;
     font-size: 15px;
   }
-  .marcosMenuText {
+  .brandonMenuText {
     font-size: 20px;
     color: white;
     font-family: Krub-Regular;
