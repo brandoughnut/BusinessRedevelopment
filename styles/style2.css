@@ -14,10 +14,100 @@
     src: url(../fonts/Koulen/Krub/Krub-Bold.ttf);
 }
 
+.header {
+
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    background-image: url(../assets/menuHeader.png);
+    background-size: cover;
+    background-position: 0, 80%;
+    color: white;
+    font-size: 7.81vw;
+    font-family: Koulen-Regular;
+}
 
 body {
     background: radial-gradient(circle at center, #2B2C28, #131515);
 }
+
+/* app start */
+
+.marcosAppTopSpace {
+    margin-top: 10px;
+}
+
+.marcosAppRightSpace {
+
+    padding-right: 1.5%;
+}
+
+.marcosAppLeftSpace {
+    padding-left: 1.5%;
+
+}
+
+
+.col-6 {
+    background-color: wheat;
+    height: auto;
+}
+
+
+
+
+
+.marcosMenuBox {
+    border: white solid 5px;
+    padding: 10px;
+
+}
+
+.marcosMenuText {
+    font-size: 25px;
+    color: white;
+    font-family: Krub-Regular;
+}
+
+.marcosMenuDesc {
+    font-size: 16px;
+    color: white;
+    font-family: Krub-Regular;
+}
+
+.marcosMenuTextHeader {
+    font-family: Koulen-Regular;
+    font-size: 30px;
+    color: white;
+
+}
+
+.marcosAppImg1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.marcosAppImg2 {
+    width: 100%;
+    height: auto;
+}
+
+.marcosAppImg3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marcosAppImg4 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* app end */
 
 .marcosPadding {
     padding-left: 10%;
@@ -178,6 +268,9 @@ body {
         border-radius: 10px;
 
         font-family: Koulen-Regular;
+        white-space: normal;
+        overflow: hidden;
+
     }
 
     .marcosTextCentered2 {
@@ -191,5 +284,17 @@ body {
         border-radius: 10px;
 
         font-family: Koulen-Regular;
+
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .marcosTextCentered {
+        font-size: 16px;
+    }
+
+    .marcosTextCentered2 {
+        font-size: 16px;
     }
 }
