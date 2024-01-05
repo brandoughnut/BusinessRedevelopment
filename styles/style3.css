@@ -237,10 +237,6 @@
   text-decoration: none;
 }
 
-  button:active {
-    border-style: outset;
-  }
-
 .brandonMobileDropList {
   border-radius: 8px;
   border-top-right-radius: 0px;
