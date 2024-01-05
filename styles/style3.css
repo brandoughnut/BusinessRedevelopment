@@ -277,6 +277,15 @@
   object-fit: cover;
 }
 
+.brandonMenuBox {
+  border: 5px solid white;
+  padding: 20px;
+}
+
+.brandonMenuCol {
+  color: transparent;
+}
+
 @media screen and (max-width:1770px ){
     .brandonAboutUsImg{
         margin-top: 28%;
@@ -361,6 +370,16 @@
         font-family: Koulen-Regular;
         text-decoration: underline;
         text-underline-position: under;
+      }
+      .brandonMenuBox {
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        border-left: none;
+        border-right: none;
+        padding: 20px;
+      }
+      .brandonMenuCol {
+        padding: 0;
       }
 }
 
